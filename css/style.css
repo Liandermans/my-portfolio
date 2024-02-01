@@ -1,12 +1,14 @@
 :root {
   --h1-font-family: "Playfair Display", serif;
   --p-font-family: "Poppins", sans-serif;
-  --primary-color: #0881a3;
-  --secondary-color: #fde9df;
+  --first-color: #0881a3;
+  --second-color: #fde9df;
+  --third-color: #fffdfb;
+  --fourth-color: #ffd6a4;
 }
 
 header {
-  background-color: var(--secondary-color);
+  background-color: var(--second-color);
   padding: 50px;
   text-align: center;
 }
@@ -28,6 +30,10 @@ header h2 {
   font-weight: 400;
   font-size: 20px;
   line-height: 1.5;
+}
+
+.body {
+  background-color: var(--third-color);
 }
 
 @media (max-width: 600px) {
