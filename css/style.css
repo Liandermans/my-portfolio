@@ -24,9 +24,9 @@ header h3 {
   font-size: 30px;
 }
 
-header p {
-  font-family: var(--p-font-family);
-  font-weight: normal;
+header h2 {
+  font-family: var(--h1-font-family);
+  font-weight: 600;
   font-size: 20px;
 }
 
@@ -36,8 +36,5 @@ header p {
   }
   header h3 {
     font-size: 25px;
-  }
-  header p {
-    font-size: 19px;
   }
 }
