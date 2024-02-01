@@ -1,20 +1,43 @@
 :root {
   --h1-font-family: "Playfair Display", serif;
   --p-font-family: "Poppins", sans-serif;
+  --primary-color: #0881a3;
+  --secondary-color: #fde9df;
 }
 
-h1,
-h2,
-p {
+header {
+  background-color: var(--secondary-color);
+  padding: 50px;
   text-align: center;
 }
 
-h1 {
+header h1 {
   font-family: var(--h1-font-family);
   font-weight: bold;
+  padding: 15px;
+  font-size: 50px;
 }
 
-p {
+header h3 {
   font-family: var(--p-font-family);
-  font-weight: medium;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+header p {
+  font-family: var(--p-font-family);
+  font-weight: normal;
+  font-size: 20px;
+}
+
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 35px;
+  }
+  header h3 {
+    font-size: 25px;
+  }
+  header p {
+    font-size: 19px;
+  }
 }
