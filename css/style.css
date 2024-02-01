@@ -1,6 +1,6 @@
 :root {
-  --h1-font-family: "Playfair Display", serif;
-  --p-font-family: "Poppins", sans-serif;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
   --first-color: #0881a3;
   --second-color: #fde9df;
   --third-color: #fffdfb;
@@ -14,19 +14,19 @@ header {
 }
 
 header h1 {
-  font-family: var(--h1-font-family);
+  font-family: var(--heading-font-family);
   font-weight: bold;
   font-size: 50px;
 }
 
 header h3 {
-  font-family: var(--p-font-family);
+  font-family: var(--default-font-family);
   font-weight: 500;
   font-size: 30px;
 }
 
 header h2 {
-  font-family: var(--p-font-family);
+  font-family: var(--default-font-family);
   font-weight: 400;
   font-size: 20px;
   line-height: 1.5;
