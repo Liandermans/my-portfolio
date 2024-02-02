@@ -35,6 +35,24 @@ img {
   display: block;
   margin: 0 auto;
   max-width: 80%;
+  border-radius: 10px;
+}
+
+.about {
+  display: block;
+  margin: 40px auto;
+  background-color: var(--third-color);
+}
+
+.about-section {
+  background-color: var(--second-color);
+  padding: 50px;
+  border-radius: 10px;
+  line-height: 1.7;
+}
+
+.about img {
+  max-width: 60%;
 }
 
 .body {
@@ -68,5 +86,12 @@ img {
   }
   .project-images {
     display: none;
+  }
+  .about-section {
+    padding: 20px;
+    padding-bottom: 40px;
+  }
+  .about img {
+    margin-top: 30px;
   }
 }
