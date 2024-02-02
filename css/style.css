@@ -87,6 +87,9 @@ img {
   .project-images {
     display: none;
   }
+  .about {
+    margin: 0 auto;
+  }
   .about-section {
     padding: 20px;
     padding-bottom: 40px;
