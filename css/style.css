@@ -11,36 +11,6 @@ body {
   font-family: var(--default-font-family);
 }
 
-header {
-  background-color: var(--second-color);
-  padding: 50px;
-  text-align: center;
-}
-
-h1 {
-  font-family: var(--heading-font-family);
-  font-weight: bold;
-  font-size: 50px;
-}
-
-h2 {
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.5;
-}
-
-h3 {
-  font-weight: 500;
-  font-size: 30px;
-}
-
-img {
-  display: block;
-  margin: 0 auto;
-  max-height: 400px;
-  border-radius: 10px;
-}
-
 nav {
   padding: 20px 30px;
   background-color: var(--third-color);
@@ -73,6 +43,36 @@ nav a:hover {
 
 nav li.active a {
   text-decoration: underline;
+}
+
+header {
+  background-color: var(--second-color);
+  padding: 50px;
+  text-align: center;
+}
+
+h1 {
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  font-size: 50px;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 30px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-height: 400px;
+  border-radius: 10px;
 }
 
 hr {
@@ -111,6 +111,11 @@ footer {
   border-radius: 5px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
   text-transform: capitalize;
+  transition: all 100ms ease-in-out;
+}
+
+.btn-projects:hover {
+  opacity: 0.8;
 }
 
 .email-link {
@@ -143,9 +148,6 @@ footer {
     font-size: 25px;
   }
   nav span {
-    display: none;
-  }
-  .go-home {
     display: none;
   }
   .project-images {
