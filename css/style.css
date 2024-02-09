@@ -127,7 +127,7 @@ footer {
 }
 
 .social-links a {
-  background-color: var(--third-color);
+  background-color: var(--second-color);
   color: var(--first-color);
   padding: 12px 20px;
   border-radius: 50%;
